@@ -1,0 +1,13 @@
+{
+  "name": "@transparencytech/constants",
+  "version": "1.0.0",
+  "description": "Shared constants for all Transparency Technologies products — pricing, tiers, taxonomy, thresholds. Single source of truth across app, marketing site, and future mobile.",
+  "main": "index.js",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlheydon/transparency-constants.git"
+  }
+}
