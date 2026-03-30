@@ -24,11 +24,18 @@ export const APP_URL         = 'https://app.transparencytechnologies.ai';
 export const MARKETING_URL   = 'https://transparencytechnologies.ai';
 export const CONTACT_URL     = 'https://transparencytechnologies.ai/contact';
 
-export const SUBSCRIBE_GOLD_WEEKLY_URL      = 'https://transparencytechnologies.ai/subscribe/gold-weekly';
-export const SUBSCRIBE_GOLD_MONTHLY_URL     = 'https://transparencytechnologies.ai/subscribe/gold-monthly';
-export const SUBSCRIBE_PLATINUM_WEEKLY_URL  = 'https://transparencytechnologies.ai/subscribe/platinum-weekly';
-export const SUBSCRIBE_PLATINUM_MONTHLY_URL = 'https://transparencytechnologies.ai/subscribe/platinum-monthly';
-export const SUBSCRIBE_ORG_URL              = 'https://transparencytechnologies.ai/subscribe/organization';
+export const SUBSCRIBE_GOLD_WEEKLY_URL      = 'https://buy.stripe.com/test_14AbJ3a5H4h35n2brZdby00';
+export const SUBSCRIBE_GOLD_MONTHLY_URL     = 'https://buy.stripe.com/test_cNi4gB4Ln8xjbLq67Fdby01';
+export const SUBSCRIBE_PLATINUM_WEEKLY_URL  = 'https://buy.stripe.com/test_9B6fZj7XzeVH4iY67Fdby02';
+export const SUBSCRIBE_PLATINUM_MONTHLY_URL = 'https://buy.stripe.com/test_bJe14pdhTdRDbLq3Zxdby03';
+export const SUBSCRIBE_ORG_URL              = 'https://transparencytechnologies.ai/contact';
+
+// Stripe Price IDs — used by webhook to map payment to tier
+// These are not secret — safe to store in constants
+export const STRIPE_PRICE_ID_GOLD_WEEKLY      = 'price_1TGfZmQhWjyg3XLgQ3NcfE4g';
+export const STRIPE_PRICE_ID_GOLD_MONTHLY     = 'price_1TGfdhQhWjyg3XLgiosZJapS';
+export const STRIPE_PRICE_ID_PLATINUM_WEEKLY  = 'price_1TGfelQhWjyg3XLgeeRXP52o';
+export const STRIPE_PRICE_ID_PLATINUM_MONTHLY = 'price_1TGffTQhWjyg3XLghgz8lrYY';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PRICING — Patent 2 § 5A
