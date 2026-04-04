@@ -37,6 +37,21 @@ export const STRIPE_PRICE_ID_GOLD_MONTHLY     = 'price_1TGfdhQhWjyg3XLgiosZJapS'
 export const STRIPE_PRICE_ID_PLATINUM_WEEKLY  = 'price_1TGfelQhWjyg3XLgeeRXP52o';
 export const STRIPE_PRICE_ID_PLATINUM_MONTHLY = 'price_1TGffTQhWjyg3XLghgz8lrYY';
 
+// Apple In-App Purchase Product IDs — must match App Store Connect
+// Create these as Auto-Renewable Subscriptions in App Store Connect
+export const APPLE_PRODUCT_ID_GOLD_WEEKLY      = 'gold_weekly';
+export const APPLE_PRODUCT_ID_GOLD_MONTHLY     = 'gold_monthly';
+export const APPLE_PRODUCT_ID_PLATINUM_WEEKLY  = 'platinum_weekly';
+export const APPLE_PRODUCT_ID_PLATINUM_MONTHLY = 'platinum_monthly';
+
+// Map Apple product IDs → tier (used by server-side receipt validation)
+export const APPLE_PRODUCT_TIER_MAP = {
+  gold_weekly: 'gold',
+  gold_monthly: 'gold',
+  platinum_weekly: 'platinum',
+  platinum_monthly: 'platinum',
+};
+
 // ─────────────────────────────────────────────────────────────────────────────
 // PRICING — Patent 2 § 5A
 // All prices are strings for display. Change here to update everywhere.
