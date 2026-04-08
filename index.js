@@ -59,15 +59,15 @@ export const APPLE_PRODUCT_TIER_MAP = {
 
 // Gold — Individual
 export const GOLD_PRICE_WEEKLY_WEBSITE  = '$4.99';
-export const GOLD_PRICE_WEEKLY_INAPP    = '$5.99';
+export const GOLD_PRICE_WEEKLY_INAPP    = '$6.99';
 export const GOLD_PRICE_MONTHLY_WEBSITE = '$16.99';
-export const GOLD_PRICE_MONTHLY_INAPP   = '$21.99';
+export const GOLD_PRICE_MONTHLY_INAPP   = '$24.99';
 
 // Platinum — Individual
 export const PLATINUM_PRICE_WEEKLY_WEBSITE  = '$6.99';
-export const PLATINUM_PRICE_WEEKLY_INAPP    = '$8.49';
+export const PLATINUM_PRICE_WEEKLY_INAPP    = '$8.99';
 export const PLATINUM_PRICE_MONTHLY_WEBSITE = '$24.99';
-export const PLATINUM_PRICE_MONTHLY_INAPP   = '$31.99';
+export const PLATINUM_PRICE_MONTHLY_INAPP   = '$34.99';
 
 // Organization
 export const ORG_PRICE_BASE_MONTHLY_WEBSITE     = '$39.99';
