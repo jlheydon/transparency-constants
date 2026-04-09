@@ -24,18 +24,18 @@ export const APP_URL         = 'https://app.transparencytechnologies.ai';
 export const MARKETING_URL   = 'https://transparencytechnologies.ai';
 export const CONTACT_URL     = 'https://transparencytechnologies.ai/contact';
 
-export const SUBSCRIBE_GOLD_WEEKLY_URL      = 'https://buy.stripe.com/test_14AbJ3a5H4h35n2brZdby00';
-export const SUBSCRIBE_GOLD_MONTHLY_URL     = 'https://buy.stripe.com/test_cNi4gB4Ln8xjbLq67Fdby01';
-export const SUBSCRIBE_PLATINUM_WEEKLY_URL  = 'https://buy.stripe.com/test_9B6fZj7XzeVH4iY67Fdby02';
-export const SUBSCRIBE_PLATINUM_MONTHLY_URL = 'https://buy.stripe.com/test_bJe14pdhTdRDbLq3Zxdby03';
+export const SUBSCRIBE_GOLD_WEEKLY_URL      = 'https://buy.stripe.com/5kQ5kD8mxdPvfNjdB02VG01';
+export const SUBSCRIBE_GOLD_MONTHLY_URL     = 'https://buy.stripe.com/eVq28reKV9zf58F68y2VG02';
+export const SUBSCRIBE_PLATINUM_WEEKLY_URL  = 'https://buy.stripe.com/5kQ14ndGR6n3fNjcwW2VG00';
+export const SUBSCRIBE_PLATINUM_MONTHLY_URL = 'https://buy.stripe.com/dRmeVdeKV7r7fNj40q2VG03';
 export const SUBSCRIBE_ORG_URL              = 'https://transparencytechnologies.ai/contact';
 
 // Stripe Price IDs — used by webhook to map payment to tier
 // These are not secret — safe to store in constants
-export const STRIPE_PRICE_ID_GOLD_WEEKLY      = 'price_1TGfZmQhWjyg3XLgQ3NcfE4g';
-export const STRIPE_PRICE_ID_GOLD_MONTHLY     = 'price_1TGfdhQhWjyg3XLgiosZJapS';
-export const STRIPE_PRICE_ID_PLATINUM_WEEKLY  = 'price_1TGfelQhWjyg3XLgeeRXP52o';
-export const STRIPE_PRICE_ID_PLATINUM_MONTHLY = 'price_1TGffTQhWjyg3XLghgz8lrYY';
+export const STRIPE_PRICE_ID_GOLD_WEEKLY      = 'price_1TKOZsHEH7FJ5sJewpQOG8aE';
+export const STRIPE_PRICE_ID_GOLD_MONTHLY     = 'price_1TKOZnHEH7FJ5sJekx9bKpvL';
+export const STRIPE_PRICE_ID_PLATINUM_WEEKLY  = 'price_1TKOZsHEH7FJ5sJeuWsXITJN';
+export const STRIPE_PRICE_ID_PLATINUM_MONTHLY = 'price_1TKOZnHEH7FJ5sJevUxOeMzK';
 
 // Apple In-App Purchase Product IDs — must match App Store Connect
 // Create these as Auto-Renewable Subscriptions in App Store Connect
