@@ -44,12 +44,27 @@ export const APPLE_PRODUCT_ID_GOLD_MONTHLY     = 'gold_monthly';
 export const APPLE_PRODUCT_ID_PLATINUM_WEEKLY  = 'platinum_weekly';
 export const APPLE_PRODUCT_ID_PLATINUM_MONTHLY = 'platinum_monthly';
 
+// Organization IAP Product IDs — tiered by member count
+export const APPLE_PRODUCT_ID_ORG_5  = 'org_5_monthly';
+export const APPLE_PRODUCT_ID_ORG_10 = 'org_10_monthly';
+export const APPLE_PRODUCT_ID_ORG_15 = 'org_15_monthly';
+
 // Map Apple product IDs → tier (used by server-side receipt validation)
 export const APPLE_PRODUCT_TIER_MAP = {
   gold_weekly: 'gold',
   gold_monthly: 'gold',
   platinum_weekly: 'platinum',
   platinum_monthly: 'platinum',
+  org_5_monthly: 'organization',
+  org_10_monthly: 'organization',
+  org_15_monthly: 'organization',
+};
+
+// Map org IAP product IDs → member count
+export const APPLE_ORG_MEMBER_MAP = {
+  org_5_monthly: 5,
+  org_10_monthly: 10,
+  org_15_monthly: 15,
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -69,11 +84,19 @@ export const PLATINUM_PRICE_WEEKLY_INAPP    = '$8.99';
 export const PLATINUM_PRICE_MONTHLY_WEBSITE = '$24.99';
 export const PLATINUM_PRICE_MONTHLY_INAPP   = '$34.99';
 
-// Organization
+// Organization — base + per-member (used for calculations/display)
 export const ORG_PRICE_BASE_MONTHLY_WEBSITE     = '$39.99';
 export const ORG_PRICE_BASE_MONTHLY_INAPP       = '$46.99';
 export const ORG_PRICE_PER_MEMBER_MONTHLY_WEBSITE = '$14.99';
 export const ORG_PRICE_PER_MEMBER_MONTHLY_INAPP   = '$17.99';
+
+// Organization — fixed tier prices (must match App Store Connect exactly)
+export const ORG_5_PRICE_MONTHLY_WEBSITE  = '$114.94';
+export const ORG_5_PRICE_MONTHLY_INAPP    = '$136.99';
+export const ORG_10_PRICE_MONTHLY_WEBSITE = '$189.89';
+export const ORG_10_PRICE_MONTHLY_INAPP   = '$226.99';
+export const ORG_15_PRICE_MONTHLY_WEBSITE = '$264.84';
+export const ORG_15_PRICE_MONTHLY_INAPP   = '$316.99';
 
 // Monthly savings labels (shown on billing toggle)
 export const GOLD_MONTHLY_SAVINGS_PCT     = '20%';
