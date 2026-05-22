@@ -28,7 +28,10 @@ export const SUBSCRIBE_GOLD_WEEKLY_URL      = 'https://buy.stripe.com/5kQ5kD8mxd
 export const SUBSCRIBE_GOLD_MONTHLY_URL     = 'https://buy.stripe.com/eVq28reKV9zf58F68y2VG02';
 export const SUBSCRIBE_PLATINUM_WEEKLY_URL  = 'https://buy.stripe.com/5kQ14ndGR6n3fNjcwW2VG00';
 export const SUBSCRIBE_PLATINUM_MONTHLY_URL = 'https://buy.stripe.com/dRmeVdeKV7r7fNj40q2VG03';
-export const SUBSCRIBE_ORG_URL              = 'https://transparencytechnologies.ai/contact';
+// Organization tier is web-only (no IAP). Routes to the web app's signup/login
+// flow with ?plan=organization; the app pre-selects Organization userType and
+// continues into the org setup + Stripe checkout flow post-auth.
+export const SUBSCRIBE_ORG_URL              = 'https://app.transparencytechnologies.ai/?plan=organization';
 
 // Stripe Price IDs — used by webhook to map payment to tier
 // These are not secret — safe to store in constants
